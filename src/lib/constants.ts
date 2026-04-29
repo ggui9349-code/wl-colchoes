@@ -1,0 +1,106 @@
+export const COMPANY = {
+  name: "WL Colchões",
+  slogan: "Reforma, Fabricação & Luxo em Colchões",
+  tagline: "Transformamos seus colchões com excelência profissional",
+  contact: {
+    phone: "+55 81 8751-4699",
+    phoneShort: "(81) 8751-4699",
+    whatsapp:
+      "https://wa.me/558187514699?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o%20gratuita%20para%20meu%20colch%C3%A3o.",
+    email: "wlcolchoess@gmail.com",
+    instagram: "https://www.instagram.com/wlcolchoesoficial/",
+    location: "Paulista, PE",
+    hours: "Seg-Sab: 8h-18h",
+  },
+} as const;
+
+export const COPY = {
+  hero: {
+    mainHeadline: "Reforme seu colchão em 1 a 3 dias e pague até 70% menos que um novo",
+    secondaryHeadline: "Reforma profissional e fabricação de colchões de luxo em Paulista",
+    subheadline:
+      "A WL Colchões restaura conforto com acabamento profissional, atendimento local e garantia de 90 dias.",
+    cta: "Falar no WhatsApp e pedir avaliação gratuita",
+  },
+  painPoints: [
+    { headline: "Seu colchão está mais mole a cada noite?", description: "Estrutura interna degradada, conforto perdido.", emoji: "😴" },
+    { headline: "Acordando com dores nas costas?", description: "Colchão velho não oferece suporte correto à coluna.", emoji: "🤕" },
+    { headline: "Colchão novo custa R$3.000-5.000+?", description: "Reforma profissional custa até 70% menos.", emoji: "💰" },
+    { headline: "Desconfia da qualidade da reforma?", description: "Nossa técnica restaura a estrutura com acabamento profissional e garantia de 90 dias.", emoji: "✓" },
+  ],
+  solution: {
+    headline: "A Solução WL Colchões: 3 Serviços Premium",
+    intro:
+      "Não somos apenas reforma. Somos especialistas em restaurar, reformar e fabricar colchões de qualidade premium.",
+    services: [
+      { title: "Reforma Profissional", description: "Restauramos a estrutura interna do seu colchão ao estado original. Higienização profunda, espumas renovadas, garantia de 90 dias.", icon: "🔧", cta: "Avaliar Colchão" },
+      { title: "Fabricação Sob Medida", description: "Fabricamos colchões sob medida em diferentes densidades e tipos. Você escolhe tamanho, espuma e design.", icon: "🏗️", cta: "Solicitar Orçamento" },
+      { title: "Coleção de Luxo", description: "Coleção premium com espumas importadas, tecnologia de resfriamento e acabamento sofisticado.", icon: "👑", cta: "Ver Coleção Luxury" },
+    ],
+  },
+  benefits: [
+    { title: "Economia de até 70%", description: "Reforma: R$1.200-1.800 vs colchão novo: R$3.000-5.000+.", icon: "💵" },
+    { title: "Durabilidade Garantida", description: "Acabamento profissional com garantia de 90 dias para ajustes relacionados ao serviço.", icon: "⏰" },
+    { title: "Conforto Restaurado", description: "Eliminamos 100% do afundamento. Estrutura como nova.", icon: "😊" },
+    { title: "Sustentável & Ecológico", description: "Cada reforma evita um colchão na lixeira.", icon: "🌱" },
+    { title: "Fabricação Customizada", description: "Crie seu colchão ideal: densidade, tamanho e firmeza.", icon: "⚙️" },
+    { title: "Processo Rápido & Simples", description: "4 passos: Contato → Avaliação → Reforma/Fabricação → Entrega.", icon: "⚡" },
+  ],
+  testimonials: [
+    { name: "Carlos Silva", location: "Paulista, PE", rating: 5, quote: "Meu colchão ficou como novo! Economizei R$2.500 e o conforto é impecável." },
+    { name: "Mariana Costa", location: "Recife, PE", rating: 5, quote: "Fabricaram um colchão sob medida para meu quarto pequeno. Qualidade premium." },
+    { name: "João Santos", location: "Paulista, PE", rating: 5, quote: "Gastava R$4.000 em colchão novo. Agora reformo por R$1.500 e dura 2 anos." },
+    { name: "Ana Oliveira", location: "Olinda, PE", rating: 5, quote: "Colchão de luxo deles superou expectativas. Vale cada real." },
+    { name: "Pedro Gomes", location: "Paulista, PE", rating: 5, quote: "Profissionalismo impecável. Trabalho perfeito e tudo limpo." },
+    { name: "Lucia Ferreira", location: "Recife, PE", rating: 5, quote: "Mandei fabricar colchão casal 160x200. Tudo certinho. Recomendo!" },
+  ],
+  about: {
+    headline: "Desde 2020 transformando o descanso em Paulista e região",
+    story:
+      "A WL Colchões nasceu em 2020, em Paulista, para resolver um problema real: colchões ainda bons sendo descartados e famílias pagando caro sem necessidade. Hoje, já são mais de +1.100 atendimentos com foco em reforma profissional e fabricação de colchões de luxo.",
+    mission: "Restaurar conforto, economizar dinheiro, cuidar do planeta.",
+    vision: "Ser referência em reforma e fabricação de colchões premium no Nordeste.",
+    values: [
+      { title: "Qualidade", description: "Reforma profissional certificada e materiais premium." },
+      { title: "Honestidade", description: "Preços justos, avaliação gratuita e transparente." },
+      { title: "Inovação", description: "Técnicas modernas e coleção de luxo atualizada." },
+      { title: "Sustentabilidade", description: "Reduzindo desperdício, cuidando do planeta." },
+    ],
+    stats: [
+      { number: "+800", label: "Colchões Reformados" },
+      { number: "+300", label: "Colchões Fabricados" },
+      { number: "4.9★", label: "Satisfação Média" },
+      { number: "+1.100", label: "Atendimentos" },
+    ],
+  },
+  howItWorks: [
+    { step: 1, title: "Contato inicial", description: "Você chama no WhatsApp e recebe retorno rápido.", detail: "Resposta em até 2 horas" },
+    { step: 2, title: "Avaliação gratuita", description: "Analisamos seu colchão e enviamos orçamento claro.", detail: "Sem compromisso" },
+    { step: 3, title: "Reforma ou fabricação", description: "Executamos o serviço com padrão profissional.", detail: "Prazo médio de 1 a 3 dias" },
+    { step: 4, title: "Entrega com garantia", description: "Você recebe o colchão pronto para uso.", detail: "Garantia de 90 dias" },
+  ],
+  guarantee: {
+    headline: "90 Dias de Garantia — Zero Risco",
+    promise: "Não é só uma garantia comum. É nosso compromisso com sua satisfação total.",
+    description:
+      "Você conta com 90 dias de garantia para ajustes relacionados ao serviço, com suporte rápido e acompanhamento da nossa equipe.",
+    checks: [
+      "Qualidade profissional em cada reforma/fabricação",
+      "Ajustes relacionados ao serviço cobertos por 90 dias",
+      "Atendimento sem burocracia para suporte necessário",
+      "Suporte técnico sempre disponível",
+    ],
+  },
+  finalCTA: {
+    headline: "Pronto Para Transformar Seu Colchão?",
+    subheadline: "Garanta sua vaga agora. Avaliação 100% gratuita, sem compromisso.",
+    buttonText: "Reservar 1 das 3 Vagas — WhatsApp",
+    supportText: "⏰ Últimas 3 vagas — resposta em até 2 horas",
+  },
+  socialProofStats: {
+    clients: "+1.100 Clientes Satisfeitos",
+    rating: "4.9★ Avaliação Média",
+    reformed: "+800 Colchões Reformados",
+    manufactured: "+300 Colchões Fabricados",
+  },
+} as const;
