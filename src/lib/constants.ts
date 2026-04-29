@@ -33,9 +33,9 @@ export const COPY = {
     intro:
       "Não somos apenas reforma. Somos especialistas em restaurar, reformar e fabricar colchões de qualidade premium.",
     services: [
-      { title: "Reforma Profissional", description: "Restauramos a estrutura interna do seu colchão ao estado original. Higienização profunda, espumas renovadas, garantia de 90 dias.", icon: "🔧", cta: "Avaliar Colchão" },
+      { title: "Reforma Profissional", description: "Restauramos a estrutura interna do seu colchão com acabamento profissional, renovação de componentes e garantia de 90 dias.", icon: "🔧", cta: "Avaliar Colchão" },
       { title: "Fabricação Sob Medida", description: "Fabricamos colchões sob medida em diferentes densidades e tipos. Você escolhe tamanho, espuma e design.", icon: "🏗️", cta: "Solicitar Orçamento" },
-      { title: "Coleção de Luxo", description: "Coleção premium com espumas importadas, tecnologia de resfriamento e acabamento sofisticado.", icon: "👑", cta: "Ver Coleção Luxury" },
+      { title: "Coleção de Luxo", description: "Linha premium com materiais selecionados, opções de conforto e acabamento sofisticado.", icon: "👑", cta: "Ver Coleção Luxury" },
     ],
   },
   benefits: [
@@ -47,12 +47,12 @@ export const COPY = {
     { title: "Processo Rápido & Simples", description: "4 passos: Contato → Avaliação → Reforma/Fabricação → Entrega.", icon: "⚡" },
   ],
   testimonials: [
-    { name: "Carlos Silva", location: "Paulista, PE", rating: 5, quote: "Meu colchão ficou como novo! Economizei R$2.500 e o conforto é impecável." },
-    { name: "Mariana Costa", location: "Recife, PE", rating: 5, quote: "Fabricaram um colchão sob medida para meu quarto pequeno. Qualidade premium." },
-    { name: "João Santos", location: "Paulista, PE", rating: 5, quote: "Gastava R$4.000 em colchão novo. Agora reformo por R$1.500 e dura 2 anos." },
-    { name: "Ana Oliveira", location: "Olinda, PE", rating: 5, quote: "Colchão de luxo deles superou expectativas. Vale cada real." },
-    { name: "Pedro Gomes", location: "Paulista, PE", rating: 5, quote: "Profissionalismo impecável. Trabalho perfeito e tudo limpo." },
-    { name: "Lucia Ferreira", location: "Recife, PE", rating: 5, quote: "Mandei fabricar colchão casal 160x200. Tudo certinho. Recomendo!" },
+    { name: "Cliente de Paulista", location: "Paulista, PE", rating: 5, quote: "O colchão voltou muito melhor e o atendimento foi atencioso do início ao fim." },
+    { name: "Cliente de Recife", location: "Recife, PE", rating: 5, quote: "Consegui encomendar um colchão sob medida para o espaço que eu precisava." },
+    { name: "Cliente da região", location: "Paulista, PE", rating: 5, quote: "A reforma ficou caprichada e fez mais sentido do que trocar por um colchão novo." },
+    { name: "Cliente de Olinda", location: "Olinda, PE", rating: 5, quote: "Gostei do acabamento e da proposta da linha de luxo." },
+    { name: "Cliente local", location: "Paulista, PE", rating: 5, quote: "Equipe cuidadosa, serviço bem-feito e entrega dentro do combinado." },
+    { name: "Cliente de Recife", location: "Recife, PE", rating: 5, quote: "O colchão sob medida ficou alinhado ao que eu pedi e atendeu bem à necessidade." },
   ],
   about: {
     headline: "Desde 2020 transformando o descanso em Paulista e região",
