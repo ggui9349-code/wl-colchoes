@@ -80,7 +80,7 @@ export const COPY = {
     { step: 4, title: "Entrega com garantia", description: "Você recebe o colchão pronto para uso.", detail: "Garantia de 90 dias" },
   ],
   guarantee: {
-    headline: "90 Dias de Garantia — Zero Risco",
+    headline: "90 Dias de Garantia para sua tranquilidade",
     promise: "É o nosso compromisso com ajustes relacionados ao serviço dentro de 90 dias.",
     description:
       "Você conta com 90 dias de garantia para ajustes relacionados ao serviço, com suporte rápido e acompanhamento da nossa equipe.",
