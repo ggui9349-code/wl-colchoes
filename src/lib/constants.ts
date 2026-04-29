@@ -61,10 +61,10 @@ export const COPY = {
     mission: "Restaurar conforto, economizar dinheiro, cuidar do planeta.",
     vision: "Ser referência em reforma e fabricação de colchões premium no Nordeste.",
     values: [
-      { title: "Qualidade", description: "Reforma profissional certificada e materiais premium." },
-      { title: "Honestidade", description: "Preços justos, avaliação gratuita e transparente." },
-      { title: "Inovação", description: "Técnicas modernas e coleção de luxo atualizada." },
-      { title: "Sustentabilidade", description: "Reduzindo desperdício, cuidando do planeta." },
+      { title: "Qualidade", description: "Reforma profissional com acabamento cuidadoso e materiais selecionados." },
+      { title: "Honestidade", description: "Preços justos, avaliação gratuita e atendimento transparente." },
+      { title: "Inovação", description: "Técnicas atualizadas e opções de conforto para diferentes necessidades." },
+      { title: "Sustentabilidade", description: "Reduzindo desperdício e reaproveitando estruturas em bom estado." },
     ],
     stats: [
       { number: "+800", label: "Colchões Reformados" },
