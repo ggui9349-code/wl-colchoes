@@ -41,7 +41,7 @@ export const COPY = {
   benefits: [
     { title: "Economia de até 70%", description: "Reforma: R$1.200-1.800 vs colchão novo: R$3.000-5.000+.", icon: "💵" },
     { title: "Durabilidade Garantida", description: "Acabamento profissional com garantia de 90 dias para ajustes relacionados ao serviço.", icon: "⏰" },
-    { title: "Conforto Restaurado", description: "Eliminamos 100% do afundamento. Estrutura como nova.", icon: "😊" },
+    { title: "Conforto Restaurado", description: "Recuperamos o suporte e melhoramos o conforto com reforma profissional.", icon: "😊" },
     { title: "Sustentável & Ecológico", description: "Cada reforma evita um colchão na lixeira.", icon: "🌱" },
     { title: "Fabricação Customizada", description: "Crie seu colchão ideal: densidade, tamanho e firmeza.", icon: "⚙️" },
     { title: "Processo Rápido & Simples", description: "4 passos: Contato → Avaliação → Reforma/Fabricação → Entrega.", icon: "⚡" },
@@ -81,21 +81,21 @@ export const COPY = {
   ],
   guarantee: {
     headline: "90 Dias de Garantia — Zero Risco",
-    promise: "Não é só uma garantia comum. É nosso compromisso com sua satisfação total.",
+    promise: "É o nosso compromisso com ajustes relacionados ao serviço dentro de 90 dias.",
     description:
       "Você conta com 90 dias de garantia para ajustes relacionados ao serviço, com suporte rápido e acompanhamento da nossa equipe.",
     checks: [
       "Qualidade profissional em cada reforma/fabricação",
       "Ajustes relacionados ao serviço cobertos por 90 dias",
       "Atendimento sem burocracia para suporte necessário",
-      "Suporte técnico sempre disponível",
+      "Suporte técnico durante o período da garantia",
     ],
   },
   finalCTA: {
     headline: "Pronto Para Transformar Seu Colchão?",
     subheadline: "Garanta sua vaga agora. Avaliação 100% gratuita, sem compromisso.",
-    buttonText: "Reservar 1 das 3 Vagas — WhatsApp",
-    supportText: "⏰ Últimas 3 vagas — resposta em até 2 horas",
+    buttonText: "Pedir avaliação gratuita no WhatsApp",
+    supportText: "Resposta em até 2 horas",
   },
   socialProofStats: {
     clients: "+1.100 Clientes Satisfeitos",

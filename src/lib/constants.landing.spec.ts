@@ -6,8 +6,8 @@ describe("landing constants", () => {
     const text = JSON.stringify(COPY);
 
     expect(text).toContain("1 a 3 dias");
-    expect(text).not.toContain("5–10");
-    expect(text).not.toContain("5–14");
+    expect(text).not.toMatch(/5\s*[–-]\s*10(?:\s*dias)?/i);
+    expect(text).not.toMatch(/5\s*[–-]\s*14(?:\s*dias)?/i);
   });
 
   it("mantém números oficiais aprovados", () => {
