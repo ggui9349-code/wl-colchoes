@@ -74,7 +74,7 @@ export const COPY = {
     ],
   },
   howItWorks: [
-    { step: 1, title: "Contato inicial", description: "Você chama no WhatsApp e recebe retorno rápido.", detail: "Resposta em até 2 horas" },
+    { step: 1, title: "Contato inicial", description: "Você chama no WhatsApp e recebe retorno rápido.", detail: "Retorno em horário comercial" },
     { step: 2, title: "Avaliação gratuita", description: "Analisamos seu colchão e enviamos orçamento claro.", detail: "Sem compromisso" },
     { step: 3, title: "Reforma ou fabricação", description: "Executamos o serviço com padrão profissional.", detail: "Prazo médio de 1 a 3 dias" },
     { step: 4, title: "Entrega com garantia", description: "Você recebe o colchão pronto para uso.", detail: "Garantia de 90 dias" },
@@ -93,9 +93,9 @@ export const COPY = {
   },
   finalCTA: {
     headline: "Pronto Para Transformar Seu Colchão?",
-    subheadline: "Garanta sua vaga agora. Avaliação 100% gratuita, sem compromisso.",
+    subheadline: "Peça sua avaliação gratuita e receba um orçamento sem compromisso.",
     buttonText: "Pedir avaliação gratuita no WhatsApp",
-    supportText: "Resposta em até 2 horas",
+    supportText: "Atendimento em horário comercial",
   },
   socialProofStats: {
     clients: "+1.100 Clientes Satisfeitos",
