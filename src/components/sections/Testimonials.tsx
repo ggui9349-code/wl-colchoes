@@ -193,7 +193,7 @@ export function Testimonials() {
                 >
                   {current.service}
                 </span>
-                <Quote className="mb-3 h-7 w-7 text-gold" aria-hidden />
+                <Quote className="mb-3 h-7 w-7 text-gold md:motion-safe:animate-pulse" aria-hidden />
                 <p className="text-lg leading-relaxed text-foreground md:text-xl">"{current.quote}"</p>
                 <div className="mt-6">
                   <p className="text-base font-bold text-foreground">{current.name}</p>

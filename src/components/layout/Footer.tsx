@@ -6,7 +6,7 @@ export function Footer() {
     <footer className="bg-gradient-luxury text-primary-foreground">
       <div className="mx-auto grid max-w-7xl gap-12 px-4 py-16 md:grid-cols-3 md:px-8">
         <div className="space-y-4">
-          <h4 className="text-lg font-bold">{COMPANY.name}</h4>
+          <h2 className="text-lg font-bold">{COMPANY.name}</h2>
           <p className="text-sm opacity-80">{COMPANY.slogan}</p>
           <div className="space-y-2 text-sm opacity-90">
             <p className="flex items-center gap-2"><MapPin className="h-4 w-4" /> {COMPANY.contact.location}</p>
@@ -18,7 +18,7 @@ export function Footer() {
         </div>
 
         <div className="space-y-4">
-          <h4 className="text-lg font-bold">Links Rápidos</h4>
+          <h3 className="text-lg font-bold">Links Rápidos</h3>
           <ul className="space-y-2 text-sm">
             {[
               ["#hero", "Início"],
@@ -35,7 +35,7 @@ export function Footer() {
         </div>
 
         <div className="space-y-4">
-          <h4 className="text-lg font-bold">Conecte-se</h4>
+          <h3 className="text-lg font-bold">Conecte-se</h3>
           <div className="flex gap-3">
             <a href={COMPANY.contact.whatsapp} target="_blank" rel="noopener noreferrer"
                className="grid h-11 w-11 place-items-center rounded-full bg-whatsapp text-white transition hover:scale-110" title="WhatsApp">

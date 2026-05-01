@@ -1,8 +1,6 @@
-import { motion } from "framer-motion";
 import { Phone, ShieldCheck, Star, Clock } from "lucide-react";
 import { CTAButton } from "@/components/CTAButton";
 import { COMPANY, COPY } from "@/lib/constants";
-import { landingMotion } from "@/lib/motion/landingVariants";
 
 export function Hero() {
   return (
@@ -14,11 +12,7 @@ export function Hero() {
       </div>
 
       <div className="mx-auto grid max-w-7xl items-center gap-12 px-4 md:grid-cols-2 md:px-8">
-        <motion.div
-          initial={false}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: landingMotion.duration.slow, ease: landingMotion.easing }}
-        >
+        <div>
           <div className="mb-3 inline-flex items-center gap-2 rounded-full bg-destructive/10 px-4 py-1.5 text-xs font-bold text-destructive ring-1 ring-destructive/30">
             <Clock className="h-3.5 w-3.5" /> Apenas 3 vagas essa semana
           </div>
@@ -66,14 +60,9 @@ export function Hero() {
             <span className="grid h-5 w-5 place-items-center rounded-full bg-primary text-[10px] font-bold text-primary-foreground">✓</span>
             Avaliação 100% gratuita, sem compromisso
           </p>
-        </motion.div>
+        </div>
 
-        <motion.div
-          initial={false}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ duration: landingMotion.duration.slow, delay: 0.1, ease: landingMotion.easing }}
-          className="relative"
-        >
+        <div className="relative">
           <div className="grid grid-cols-2 gap-4 rounded-3xl bg-card p-4 shadow-elegant">
             <div className="relative aspect-[3/4] overflow-hidden rounded-2xl bg-gradient-to-br from-muted to-secondary">
               <div className="absolute inset-0 grid place-items-center text-6xl opacity-20">🛏️</div>
@@ -93,7 +82,7 @@ export function Hero() {
           <div className="absolute -bottom-5 left-1/2 -translate-x-1/2 rounded-full bg-gradient-gold px-5 py-2 text-sm font-bold text-gold-foreground shadow-gold">
             Transformação em 5–10 dias
           </div>
-        </motion.div>
+        </div>
       </div>
     </section>
   );
