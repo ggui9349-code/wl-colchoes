@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { COPY } from "@/lib/constants";
+import { landingMotion } from "@/lib/motion/landingVariants";
 
 export function HowItWorks() {
   return (
@@ -18,7 +19,7 @@ export function HowItWorks() {
               key={it.step}
               initial={{ opacity: 0, y: 24 }}
               whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true, amount: 0.3 }}
+              viewport={landingMotion.viewport}
               transition={{ duration: 0.5, delay: i * 0.1 }}
               className="rounded-3xl border border-border bg-card p-6 text-center shadow-soft transition hover:-translate-y-1 hover:shadow-elegant"
             >

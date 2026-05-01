@@ -7,6 +7,7 @@ import robertoPhoto from "@/assets/testimonial-roberto.png";
 import josePhoto from "@/assets/testimonial-jose.png";
 import fernandaPhoto from "@/assets/testimonial-fernanda.png";
 import pauloPhoto from "@/assets/testimonial-paulo.png";
+import { landingMotion } from "@/lib/motion/landingVariants";
 
 type Service = "Reforma" | "Fabricação" | "Luxo";
 
@@ -175,7 +176,7 @@ export function Testimonials() {
                 initial={{ opacity: 0, y: 16 }}
                 animate={{ opacity: 1, y: 0 }}
                 exit={{ opacity: 0, y: -16 }}
-                transition={{ duration: 0.4 }}
+                transition={{ duration: landingMotion.duration.fast, ease: landingMotion.easing }}
               >
                 <span
                   className={

@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import { Phone, ShieldCheck, Star, Clock } from "lucide-react";
 import { CTAButton } from "@/components/CTAButton";
 import { COMPANY, COPY } from "@/lib/constants";
+import { landingMotion } from "@/lib/motion/landingVariants";
 
 export function Hero() {
   return (
@@ -13,7 +14,11 @@ export function Hero() {
       </div>
 
       <div className="mx-auto grid max-w-7xl items-center gap-12 px-4 md:grid-cols-2 md:px-8">
-        <motion.div initial={{ opacity: 0, y: 24 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }}>
+        <motion.div
+          initial={false}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: landingMotion.duration.slow, ease: landingMotion.easing }}
+        >
           <div className="mb-3 inline-flex items-center gap-2 rounded-full bg-destructive/10 px-4 py-1.5 text-xs font-bold text-destructive ring-1 ring-destructive/30">
             <Clock className="h-3.5 w-3.5" /> Apenas 3 vagas essa semana
           </div>
@@ -63,7 +68,12 @@ export function Hero() {
           </p>
         </motion.div>
 
-        <motion.div initial={{ opacity: 0, scale: 0.96 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 0.7, delay: 0.1 }} className="relative">
+        <motion.div
+          initial={false}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: landingMotion.duration.slow, delay: 0.1, ease: landingMotion.easing }}
+          className="relative"
+        >
           <div className="grid grid-cols-2 gap-4 rounded-3xl bg-card p-4 shadow-elegant">
             <div className="relative aspect-[3/4] overflow-hidden rounded-2xl bg-gradient-to-br from-muted to-secondary">
               <div className="absolute inset-0 grid place-items-center text-6xl opacity-20">🛏️</div>

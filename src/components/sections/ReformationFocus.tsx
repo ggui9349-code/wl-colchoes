@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import { ArrowRight, Wallet, ShieldCheck, Zap, Leaf, MessageCircle } from "lucide-react";
 import { CTAButton } from "@/components/CTAButton";
 import { COMPANY } from "@/lib/constants";
+import { landingMotion } from "@/lib/motion/landingVariants";
 
 const whyReform = [
   { Icon: Wallet, title: "Economia Significativa", description: "Reforma custa até 70% menos que colchão novo. R$ 1.500 vs R$ 5.000+." },
@@ -25,7 +26,7 @@ export function ReformationFocus() {
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, amount: 0.3 }}
+          viewport={landingMotion.viewport}
           transition={{ duration: 0.5 }}
           className="mx-auto mb-14 max-w-3xl text-center"
         >
@@ -43,7 +44,7 @@ export function ReformationFocus() {
         <motion.div
           initial={{ opacity: 0, y: 24 }}
           whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, amount: 0.2 }}
+          viewport={landingMotion.viewport}
           transition={{ duration: 0.55 }}
           className="mb-16 grid gap-6 rounded-3xl border border-border bg-card p-6 shadow-elegant md:grid-cols-[1fr_auto_1fr] md:gap-8 md:p-10"
         >
@@ -97,7 +98,7 @@ export function ReformationFocus() {
                 key={title}
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true, amount: 0.2 }}
+                viewport={landingMotion.viewport}
                 transition={{ duration: 0.45, delay: i * 0.06 }}
                 className="rounded-2xl border border-border bg-card p-6 shadow-soft transition hover:-translate-y-1 hover:shadow-elegant"
               >
@@ -122,7 +123,7 @@ export function ReformationFocus() {
                 key={s.step}
                 initial={{ opacity: 0, y: 16 }}
                 whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true, amount: 0.2 }}
+                viewport={landingMotion.viewport}
                 transition={{ duration: 0.4, delay: i * 0.08 }}
                 className="text-center"
               >
