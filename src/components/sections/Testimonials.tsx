@@ -1,12 +1,12 @@
 import { useEffect, useMemo, useState, useCallback } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { ChevronLeft, ChevronRight, Quote } from "lucide-react";
-import marianaPhoto from "@/assets/testimonial-mariana.png";
-import carlosPhoto from "@/assets/testimonial-carlos.png";
-import robertoPhoto from "@/assets/testimonial-roberto.png";
-import josePhoto from "@/assets/testimonial-jose.png";
-import fernandaPhoto from "@/assets/testimonial-fernanda.png";
-import pauloPhoto from "@/assets/testimonial-paulo.png";
+import marianaPhoto from "@/assets/testimonial-mariana-320.webp";
+import carlosPhoto from "@/assets/testimonial-carlos-320.webp";
+import robertoPhoto from "@/assets/testimonial-roberto-320.webp";
+import josePhoto from "@/assets/testimonial-jose-320.webp";
+import fernandaPhoto from "@/assets/testimonial-fernanda-320.webp";
+import pauloPhoto from "@/assets/testimonial-paulo-320.webp";
 import { landingMotion } from "@/lib/motion/landingVariants";
 
 type Service = "Reforma" | "Fabricação" | "Luxo";
@@ -92,7 +92,14 @@ function Avatar({ name, active, photo }: { name: string; active: boolean; photo?
             : "border-border")
         }
       >
-        <img src={photo} alt={name} className="h-full w-full object-cover" loading="lazy" />
+        <img
+          src={photo}
+          alt={name}
+          className="h-full w-full object-cover"
+          loading="lazy"
+          decoding="async"
+          sizes="(max-width: 640px) 288px, 320px"
+        />
       </div>
     );
   }

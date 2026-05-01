@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Menu, X } from "lucide-react";
 import { CTAButton } from "@/components/CTAButton";
 import { COMPANY } from "@/lib/constants";
-import logoWL from "@/assets/logo-wl.png";
+import logoWL from "@/assets/logo-wl-88.webp";
 
 const navItems = [
   { label: "Início", href: "#hero" },
@@ -18,7 +18,15 @@ export function Header() {
     <header className="fixed inset-x-0 top-7 z-50 border-b border-border/50 bg-background/85 backdrop-blur-md sm:top-8">
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 md:px-8">
         <a href="#hero" className="flex items-center gap-3">
-          <img src={logoWL} alt="WL Colchões" className="h-11 w-11 rounded-xl object-cover shadow-soft" />
+          <img
+            src={logoWL}
+            alt="WL Colchões"
+            width={44}
+            height={44}
+            decoding="async"
+            fetchPriority="high"
+            className="h-11 w-11 rounded-xl object-cover shadow-soft"
+          />
           <div className="hidden flex-col leading-tight sm:flex">
             <span className="text-base font-extrabold text-primary">WL Colchões</span>
             <span className="text-[10px] font-medium uppercase tracking-widest text-muted-foreground">Paulista, PE</span>
