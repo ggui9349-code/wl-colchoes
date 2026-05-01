@@ -1,13 +1,13 @@
 {
   "installCommand": "npm install",
   "buildCommand": "npm run build",
+  "outputDirectory": "dist/client",
   "routes": [
     {
-      "src": "^/assets/(.*)",
-      "dest": "/dist/client/assets/$1"
+      "handle": "filesystem"
     },
     {
-      "src": "^/(.*)",
+      "src": "/(.*)",
       "dest": "/api/index"
     }
   ]
