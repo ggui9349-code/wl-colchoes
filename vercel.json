@@ -1,14 +1,14 @@
 {
   "installCommand": "npm install",
   "buildCommand": "npm run build",
-  "rewrites": [
+  "routes": [
     {
-      "source": "/assets/:path*",
-      "destination": "/dist/client/assets/:path*"
+      "src": "^/assets/(.*)",
+      "dest": "/dist/client/assets/$1"
     },
     {
-      "source": "/(.*)",
-      "destination": "/api/index"
+      "src": "^/(.*)",
+      "dest": "/api/index"
     }
   ]
 }
