@@ -9,18 +9,18 @@ export const COMPANY = {
       "https://wa.me/558187514699?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o%20gratuita%20para%20meu%20colch%C3%A3o.",
     email: "wlcolchoess@gmail.com",
     instagram: "https://www.instagram.com/wlcolchoesoficial/",
-    location: "Paulista, PE",
+    location: "Paulista",
     hours: "Seg-Sab: 8h-18h",
   },
 } as const;
 
 export const COPY = {
   hero: {
-    mainHeadline: "Reforme seu colchão em 1 a 3 dias e pague até 70% menos que um novo",
-    secondaryHeadline: "Reforma profissional e fabricação de colchões de luxo em Paulista",
+    mainHeadline: "Reforme seu colchão em até 3 dias e pague até 70% menos que um novo.",
+    secondaryHeadline: "Em Paulista, a WL Colchões restaura conforto com acabamento profissional e garantia de 90 dias.",
     subheadline:
-      "A WL Colchões restaura conforto com acabamento profissional, atendimento local e garantia de 90 dias.",
-    cta: "Falar no WhatsApp e pedir avaliação gratuita",
+      "Prazo médio de até 3 dias, dependendo da avaliação. Atendimento local e serviço com acabamento profissional.",
+    cta: "Falar no WhatsApp e pedir avaliação gratuita.",
   },
   painPoints: [
     { headline: "Seu colchão está mais mole a cada noite?", description: "Estrutura interna degradada, conforto perdido.", emoji: "😴" },
@@ -55,9 +55,9 @@ export const COPY = {
     { name: "Cliente de Recife", location: "Recife, PE", rating: 5, quote: "O colchão sob medida ficou alinhado ao que eu pedi e atendeu bem à necessidade." },
   ],
   about: {
-    headline: "Desde 2020 transformando o descanso em Paulista e região",
+    headline: "Desde 2020, a WL Colchões em Paulista",
     story:
-      "A WL Colchões nasceu em 2020, em Paulista, para resolver um problema real: colchões ainda bons sendo descartados e famílias pagando caro sem necessidade. Hoje, já são mais de +1.100 atendimentos com foco em reforma profissional e fabricação de colchões de luxo.",
+      "Desde 2020, a WL Colchões atende Paulista com reforma profissional, fabricação de colchões de luxo e colchões sob medida. Já são mais de +1.100 clientes atendidos, +800 colchões reformados, +300 fabricados e avaliação média de 4,9★.",
     mission: "Restaurar conforto, economizar dinheiro, cuidar do planeta.",
     vision: "Ser referência em reforma e fabricação de colchões premium no Nordeste.",
     values: [
@@ -80,10 +80,10 @@ export const COPY = {
     { step: 4, title: "Entrega com garantia", description: "Você recebe o colchão pronto para uso.", detail: "Garantia de 90 dias" },
   ],
   guarantee: {
-    headline: "90 Dias de Garantia para sua tranquilidade",
-    promise: "É o nosso compromisso com ajustes relacionados ao serviço dentro de 90 dias.",
+    headline: "Garantia de 90 dias para ajustes relacionados ao serviço realizado.",
+    promise: "Garantia de 90 dias para ajustes relacionados ao serviço realizado.",
     description:
-      "Você conta com 90 dias de garantia para ajustes relacionados ao serviço, com suporte rápido e acompanhamento da nossa equipe.",
+      "Você conta com 90 dias de garantia para ajustes relacionados ao serviço realizado, com suporte da nossa equipe quando necessário.",
     checks: [
       "Qualidade profissional em cada reforma/fabricação",
       "Ajustes relacionados ao serviço cobertos por 90 dias",
@@ -92,10 +92,10 @@ export const COPY = {
     ],
   },
   finalCTA: {
-    headline: "Pronto Para Transformar Seu Colchão?",
-    subheadline: "Peça sua avaliação gratuita e receba um orçamento sem compromisso.",
-    buttonText: "Pedir avaliação gratuita no WhatsApp",
-    supportText: "Atendimento em horário comercial",
+    headline: "Seu colchão pode ficar pronto em poucos dias.",
+    subheadline: "Fale com a WL Colchões no WhatsApp e receba sua avaliação gratuita.",
+    buttonText: "Chamar no WhatsApp.",
+    supportText: "Agenda semanal limitada. Quanto antes chamar, mais cedo podemos incluir sua avaliação.",
   },
   socialProofStats: {
     clients: "+1.100 Clientes Satisfeitos",

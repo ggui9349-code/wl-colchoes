@@ -14,10 +14,10 @@ export function Hero() {
       <div className="mx-auto grid max-w-7xl items-center gap-12 px-4 md:grid-cols-2 md:px-8">
         <div>
           <div className="mb-3 inline-flex items-center gap-2 rounded-full bg-destructive/10 px-4 py-1.5 text-xs font-bold text-destructive ring-1 ring-destructive/30">
-            <Clock className="h-3.5 w-3.5" /> Apenas 3 vagas essa semana
+            <Clock className="h-3.5 w-3.5" /> Vagas limitadas para essa semana.
           </div>
           <div className="mb-5 ml-2 inline-flex items-center gap-2 rounded-full border border-border bg-card px-4 py-1.5 text-xs font-semibold text-primary shadow-soft">
-            <ShieldCheck className="h-4 w-4" /> 7+ anos transformando colchões em Pernambuco
+            <ShieldCheck className="h-4 w-4" /> Desde 2020 atendendo Paulista com acabamento profissional
           </div>
 
           <h1 className="text-4xl font-extrabold leading-[1.05] text-foreground md:text-6xl">
@@ -80,7 +80,7 @@ export function Hero() {
             </div>
           </div>
           <div className="absolute -bottom-5 left-1/2 -translate-x-1/2 rounded-full bg-gradient-gold px-5 py-2 text-sm font-bold text-gold-foreground shadow-gold">
-            Transformação em 5–10 dias
+            Prazo médio de até 3 dias, dependendo da avaliação
           </div>
         </div>
       </div>

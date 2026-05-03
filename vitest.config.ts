@@ -8,6 +8,7 @@ export default defineConfig(async (env) =>
       setupFiles: ["./src/test/setup.ts"],
       globals: true,
       css: true,
+      exclude: ["**/.worktrees/**", "**/node_modules/**", "**/dist/**", "**/e2e/**"],
     },
   }),
 );

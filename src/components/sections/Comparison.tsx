@@ -50,9 +50,9 @@ const reformItems = [
   },
   {
     icon: Zap,
-    title: "Tempo Rápido",
-    big: "5–10 Dias",
-    sub: "Reforma completa em tempo recorde",
+    title: "Prazo de Reforma",
+    big: "Até 3 Dias",
+    sub: "Prazo médio de até 3 dias, dependendo da avaliação",
   },
   {
     icon: Leaf,
@@ -62,9 +62,9 @@ const reformItems = [
   },
   {
     icon: ShieldCheck,
-    title: "Garantia 90 Dias",
-    big: "Sem Risco",
-    sub: "Teste sem risco. Reembolso integral.",
+    title: "Garantia de 90 Dias",
+    big: "Ajustes Cobertos",
+    sub: "90 dias para ajustes relacionados ao serviço realizado.",
   },
 ];
 

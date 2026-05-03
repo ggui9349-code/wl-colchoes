@@ -27,7 +27,7 @@ const stats = [
     decimals: 0,
     prefix: "+",
     label: "Colchões Fabricados",
-    gradient: "from-[oklch(0.45_0.12_240)] to-[oklch(0.35_0.14_245)]",
+    gradient: "from-primary to-[oklch(0.3_0.09_190)]",
   },
 ];
 
@@ -84,13 +84,13 @@ export function StatsAnimated() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, amount: 0.4 }}
           transition={{ duration: 0.5 }}
-          className="mx-auto mt-10 flex max-w-3xl flex-col items-center gap-4 rounded-3xl border-2 border-destructive/30 bg-destructive/5 p-6 text-center md:flex-row md:justify-between md:text-left"
+          className="mx-auto mt-10 flex max-w-3xl flex-col items-center gap-4 rounded-3xl border border-border bg-card p-6 text-center md:flex-row md:justify-between md:text-left"
         >
           <div className="flex items-start gap-3">
-            <Clock className="mt-0.5 h-6 w-6 shrink-0 text-destructive" />
+            <Clock className="mt-0.5 h-6 w-6 shrink-0 text-primary" />
             <div>
-              <p className="text-base font-extrabold uppercase tracking-wide text-destructive">Vagas limitadas essa semana</p>
-              <p className="mt-1 text-sm text-muted-foreground">Apenas 3 vagas para reforma. Garanta a sua agora.</p>
+              <p className="text-base font-extrabold uppercase tracking-wide text-primary">Atendimento em Paulista</p>
+              <p className="mt-1 text-sm text-muted-foreground">Quanto antes chamar, mais cedo podemos incluir sua avaliação.</p>
             </div>
           </div>
           <CTAButton text="Agendar Avaliação" size="md" pulse href={COMPANY.contact.whatsapp} />

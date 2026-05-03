@@ -17,7 +17,7 @@ export function FinalCTA() {
         className="mx-auto max-w-3xl px-4 text-center md:px-8"
       >
         <div className="mx-auto mb-5 inline-flex items-center gap-2 rounded-full bg-gold/20 px-4 py-1.5 text-xs font-bold uppercase tracking-wider text-gold ring-1 ring-gold/40">
-          <Clock className="h-3.5 w-3.5" /> Vagas limitadas essa semana
+          <Clock className="h-3.5 w-3.5" /> Vagas limitadas para essa semana.
         </div>
         <h2 className="text-3xl font-extrabold leading-tight md:text-5xl">{COPY.finalCTA.headline}</h2>
         <p className="mx-auto mt-4 max-w-xl text-lg text-primary-foreground/85">{COPY.finalCTA.subheadline}</p>
@@ -40,8 +40,8 @@ export function FinalCTA() {
           <Phone className="h-4 w-4" /> Ou ligue para {COMPANY.contact.phoneShort}
         </a>
         <div className="mt-6 flex flex-wrap justify-center gap-x-6 gap-y-2 text-sm text-primary-foreground/85">
-          <span>✓ Avaliação 100% gratuita</span>
-          <span>✓ Sem compromisso</span>
+          <span>✓ Avaliação gratuita</span>
+          <span>✓ Agenda semanal limitada</span>
         </div>
       </motion.div>
     </section>

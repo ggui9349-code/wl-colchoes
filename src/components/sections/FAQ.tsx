@@ -19,22 +19,22 @@ const faqs = [
   },
   {
     q: "Quanto tempo leva uma reforma?",
-    intro: "Nossa reforma é rápida:",
+    intro: "Nosso prazo é objetivo e depende da avaliação:",
     bullets: [
-      "Avaliação: no mesmo dia ou próximo dia",
-      "Reforma: 3-5 dias úteis",
-      "Entrega: até 2 dias após conclusão",
+      "Contato e avaliação técnica",
+      "Orçamento para aprovação",
+      "Serviço com prazo médio de até 3 dias, dependendo da avaliação",
     ],
-    outro: "Total do processo: 7-10 dias no máximo.",
+    outro: "Prazo médio de até 3 dias, dependendo da avaliação.",
   },
   {
     q: "Vocês dão garantia?",
-    intro: "SIM! 90 dias de garantia zero risco:",
+    intro: "SIM. Garantia de 90 dias para ajustes relacionados ao serviço realizado:",
     bullets: [
       "Qualidade profissional certificada",
-      "Se insatisfeito, reembolso 100%",
-      "Sem perguntas, sem complicações",
-      "Suporte técnico pós-venda",
+      "Ajustes relacionados ao serviço dentro do prazo de 90 dias",
+      "Atendimento com suporte técnico",
+      "Acompanhamento pós-serviço quando necessário",
     ],
   },
   {
@@ -44,14 +44,14 @@ const faqs = [
       "Tamanho: qualquer dimensão sob medida",
       "Firmeza: macio, médio, firme, extra firme",
       "Materiais: espuma, mola, híbrido, látex",
-      "Prazo: 5-10 dias para fabricação",
+      "Prazo médio de até 3 dias, dependendo da avaliação",
     ],
   },
   {
     q: "Vocês entregam?",
     intro: "SIM! Entrega inclusa na região:",
     bullets: [
-      "Paulista, Recife, Olinda e região",
+      "Paulista e proximidades",
       "Montagem e instalação",
       "Coleta de colchão antigo (opcional)",
       "Prazo: 1-2 dias após conclusão",

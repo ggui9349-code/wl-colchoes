@@ -25,12 +25,12 @@ export function About() {
             <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-primary-dark/85 via-primary-dark/10 to-transparent opacity-0 transition-opacity duration-500 group-hover:opacity-100" />
             <div className="absolute inset-x-0 bottom-0 p-6 text-primary-foreground opacity-0 transition-opacity duration-500 group-hover:opacity-100">
               <p className="text-lg font-semibold">Equipe WL Colchões</p>
-              <p className="text-sm text-primary-foreground/80">Paulista, PE • 7+ anos transformando colchões</p>
+              <p className="text-sm text-primary-foreground/80">Paulista • Reforma profissional e fabricação sob medida</p>
             </div>
           </div>
           <div className="absolute -bottom-6 -right-4 rounded-2xl bg-card p-5 shadow-elegant md:-right-6">
-            <p className="text-3xl font-bold text-primary">7+ anos</p>
-            <p className="text-sm text-muted-foreground">de experiência</p>
+            <p className="text-3xl font-bold text-primary">Desde 2020</p>
+            <p className="text-sm text-muted-foreground">atendendo Paulista</p>
           </div>
         </motion.div>
 
@@ -44,7 +44,7 @@ export function About() {
           <h2 className="text-3xl font-bold text-foreground md:text-5xl">{COPY.about.headline}</h2>
           <p className="mt-5 leading-relaxed text-muted-foreground">{COPY.about.story}</p>
           <p className="mt-4 leading-relaxed text-muted-foreground">
-            7+ anos transformando colchões degradados em peças premium. Referência em reforma e fabricação no Nordeste.
+            Acabamento profissional, conforto superior e fabricação sob medida para quem busca durabilidade e bom custo-benefício.
           </p>
 
           <div className="mt-8 grid grid-cols-2 gap-4 sm:grid-cols-4">

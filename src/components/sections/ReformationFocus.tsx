@@ -6,16 +6,16 @@ import { landingMotion } from "@/lib/motion/landingVariants";
 
 const whyReform = [
   { Icon: Wallet, title: "Economia Significativa", description: "Reforma custa até 70% menos que colchão novo. R$ 1.500 vs R$ 5.000+." },
-  { Icon: ShieldCheck, title: "Qualidade Garantida", description: "Profissional certificado, técnica rigorosa, 90 dias de garantia." },
-  { Icon: Zap, title: "Resultado Imediato", description: "Colchão volta ao estado original em 5 a 10 dias úteis." },
-  { Icon: Leaf, title: "Sustentabilidade", description: "Menos lixo, mais responsabilidade ambiental. Segunda vida ao seu colchão." },
+  { Icon: ShieldCheck, title: "Acabamento Profissional", description: "Serviço técnico com acabamento profissional e garantia de 90 dias para ajustes." },
+  { Icon: Zap, title: "Prazo Ágil", description: "Prazo médio de até 3 dias, dependendo da avaliação." },
+  { Icon: Leaf, title: "Sustentabilidade", description: "Menos descarte e mais vida útil para o seu colchão." },
 ];
 
 const steps = [
-  { step: 1, title: "Avaliação Gratuita", desc: "Visitamos ou você traz. Análise completa do colchão." },
-  { step: 2, title: "Orçamento Detalhado", desc: "Sem surpresas. Você aprova antes de começar." },
-  { step: 3, title: "Reforma Rigorosa", desc: "Desmontagem, limpeza profunda, estrutura restaurada." },
-  { step: 4, title: "Entrega + Garantia", desc: "90 dias de garantia. Reembolso integral se insatisfeito." },
+  { step: 1, title: "Contato", desc: "Você chama no WhatsApp e informa as necessidades do seu colchão." },
+  { step: 2, title: "Avaliação", desc: "Fazemos a avaliação técnica e orientamos o melhor serviço." },
+  { step: 3, title: "Orçamento", desc: "Você recebe um orçamento claro para aprovar antes do início." },
+  { step: 4, title: "Entrega", desc: "Serviço concluído com prazo médio de até 3 dias, dependendo da avaliação." },
 ];
 
 export function ReformationFocus() {
@@ -35,8 +35,7 @@ export function ReformationFocus() {
             Reforma Profissional de Colchões
           </h2>
           <p className="mt-4 text-lg text-muted-foreground">
-            Transformamos colchões degradados em produtos de qualidade excepcional.
-            Profissionalismo, durabilidade e economia garantidos.
+            Restauramos colchões com acabamento profissional, conforto superior e prazo médio de até 3 dias, dependendo da avaliação.
           </p>
         </motion.div>
 
@@ -67,7 +66,7 @@ export function ReformationFocus() {
               <ArrowRight className="h-6 w-6" />
             </div>
             <p className="text-sm font-bold text-foreground">Reforma Completa</p>
-            <p className="text-xs text-muted-foreground">5–10 dias úteis</p>
+            <p className="text-xs text-muted-foreground">até 3 dias, dependendo da avaliação</p>
             <span className="rounded-full bg-gold/15 px-3 py-1 text-xs font-bold text-gold-foreground">
               Economiza até 70%
             </span>

@@ -8,7 +8,6 @@ const Footer = lazy(() => import("@/components/layout/Footer").then((m) => ({ de
 const ReformationFocus = lazy(() =>
   import("@/components/sections/ReformationFocus").then((m) => ({ default: m.ReformationFocus })),
 );
-const HowItWorks = lazy(() => import("@/components/sections/HowItWorks").then((m) => ({ default: m.HowItWorks })));
 const StatsAnimated = lazy(() => import("@/components/sections/StatsAnimated").then((m) => ({ default: m.StatsAnimated })));
 const Comparison = lazy(() => import("@/components/sections/Comparison").then((m) => ({ default: m.Comparison })));
 const About = lazy(() => import("@/components/sections/About").then((m) => ({ default: m.About })));
@@ -65,7 +64,6 @@ function Index() {
         <Hero />
         <Suspense fallback={null}>
           <ReformationFocus />
-          <HowItWorks />
           <StatsAnimated />
           <Comparison />
           <About />

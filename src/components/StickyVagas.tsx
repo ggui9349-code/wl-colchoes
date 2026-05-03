@@ -40,8 +40,8 @@ export function StickyVagas() {
           <Flame className="h-5 w-5" />
         </div>
         <div>
-          <p className="text-sm font-extrabold leading-tight text-foreground">3 vagas</p>
-          <p className="text-[10px] font-semibold uppercase tracking-wider text-muted-foreground">Restantes</p>
+          <p className="text-sm font-extrabold leading-tight text-foreground">Agenda semanal limitada</p>
+          <p className="text-[10px] font-semibold uppercase tracking-wider text-muted-foreground">Atendimento por ordem de solicitação</p>
         </div>
       </div>
       <a
