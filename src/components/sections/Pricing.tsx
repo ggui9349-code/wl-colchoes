@@ -41,7 +41,7 @@ const tiers: Tier[] = [
       "Medidas totalmente customizáveis",
       "Escolha de espuma (D18 até D45)",
       "Design personalizado",
-      "Entrega em 7–14 dias",
+      "Prazo médio de até 3 dias, dependendo da avaliação",
       "Garantia de 1 ano",
       "Suporte técnico dedicado",
     ],
@@ -56,7 +56,7 @@ const tiers: Tier[] = [
     description: "Máxima qualidade e exclusividade",
     features: [
       "Espumas de primeira linha",
-      "Tecnologia de resfriamento gel",
+      "Conforto térmico equilibrado com materiais selecionados",
       "Tecidos premium sofisticados",
       "Design exclusivo e elegante",
       "Garantia de 3 anos",
@@ -195,7 +195,7 @@ export function Pricing() {
                 </ul>
 
                 <CTAButton
-                  text="Confirmar Vaga Disponível"
+                  text="Solicitar orçamento"
                   variant={popular ? "luxury" : "primary"}
                   size="md"
                   fullWidth
@@ -230,7 +230,7 @@ export function Pricing() {
           </p>
           <div className="mt-6 flex justify-center">
             <CTAButton
-              text="Garantir Vaga Agora — Resposta em 2h"
+              text="Falar no WhatsApp"
               variant="primary"
               size="lg"
               href={COMPANY.contact.whatsapp}
